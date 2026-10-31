@@ -1,0 +1,23 @@
+# Android / Gradle build output
+*.iml
+.gradle/
+**/build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk.idsig
+
+# IDE
+.idea/
+*.hprof
+
+# Signing material — never commit keystores or passwords
+*.jks
+*.keystore
+keystore.properties
+.env
+
+# OS noise
+.DS_Store
+Thumbs.db
